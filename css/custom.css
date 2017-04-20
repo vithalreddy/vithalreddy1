@@ -3,169 +3,230 @@ body {
     padding: none;
     font-family: Lato, monospace, sans-serif;
     border-top: 5px solid black;
-
+    font-size: 16px;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Lato);
-h1{
-  font-weight: bold;
-  font-size: 2em;
+h1 {
+    font-weight: bold;
+    font-size: 200%;
 }
-p{
-  font-weight: bold;
-  font-size: 1.5em;
+
+p {
+    font-weight: bold;
+    font-size: 120%;
 }
+
+
 /* nav menu*/
+
 #pagetop.navbar-default .navbar-brand {
     color: #ffffff;
-    font-family: Lato,cursive,monospace,sans-serif;
-    font-size: 4vmin;
+    font-family: Lato, cursive, monospace, sans-serif;
+    font-size: 150%;
 }
+
 #pagetop.navbar-default {
-    font-size: 18px;
+    font-size: 100%;
     background-color: #ff0000;
-   border-bottom: 5px solid #000000;
-   font-weight: bold;
-   font-family: Lato, monospace,sans-serif;
-   padding: 10px;
-
-
+    border-bottom: 5px solid #000000;
+    font-weight: bold;
+    font-family: Lato, monospace, sans-serif;
+    padding: 10px;
 }
+
 #pagetop.navbar-default .navbar-nav>li>a {
     color: #ffffff;
     background-color: #ff0000;
+    font-weight: bold;
 }
-#pagetop.navbar-default .navbar-nav>li>a:hover,
-#pagetop.navbar-default .navbar-nav>li>a:focus {
+
+#pagetop.navbar-default .navbar-nav>li>a:hover, #pagetop.navbar-default .navbar-nav>li>a:focus {
     color: #ffffff;
     background-color: #000000;
 }
-#pagetop.navbar-default .navbar-nav>.active>a,
-#pagetop.navbar-default .navbar-nav>.active>a:hover,
-#pagetop.navbar-default .navbar-nav>.active>a:focus {
+
+#pagetop.navbar-default .navbar-nav>.active>a, #pagetop.navbar-default .navbar-nav>.active>a:hover, #pagetop.navbar-default .navbar-nav>.active>a:focus {
     color: #ffffff;
     background-color: #000000;
 }
+
 #pagetop.navbar-default .navbar-toggle {
     border-color: #000000;
 }
-#pagetop.navbar-default .navbar-toggle:hover,
-#pagetop.navbar-default .navbar-toggle:focus {
+
+#pagetop.navbar-default .navbar-toggle:hover, #pagetop.navbar-default .navbar-toggle:focus {
     background-color: #000000;
 }
+
 #pagetop.navbar-default .navbar-toggle .icon-bar {
     background-color: #000000;
 }
-#pagetop.navbar-default .navbar-toggle:hover .icon-bar,
-#pagetop.navbar-default .navbar-toggle:focus .icon-bar {
+
+#pagetop.navbar-default .navbar-toggle:hover .icon-bar, #pagetop.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #ff0000;
 }
+
+
 /* nav menu end*/
+
+
 /* Hero image*/
+
 .hero-image {
-  background-image: url("bg.jpg");
-  min-height: 650px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-image: url("bg.jpg");
+    min-height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  padding-top: 30px;
-
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding-top: 30px;
 }
+
 .round-img {
-  display: block;
-  margin: 0 auto;
-  width: 230px;
-  height: 230px;
-  border-radius: 128px;
-  border: 2px solid grey;
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+    height: 230px;
+    border-radius: 128px;
+    border: 2px solid grey;
 }
 
 .myLinks {
-  border:  2px solid white;
-  padding: 5px;
+    border: 2px solid white;
+    padding: 5px;
 }
 
 .myLinks li {
     padding: 0px 10px;
 }
-.myLinks li a{
-    font-size: 6vmin;
-}
-#about-me {
-      text-align: center;
-      background-color: #E74C3C;
-      min-height: 400px;
-      font-family: lato, sans-serif;
-      font-weight: bold;
-      color: white;
-      font-size: 2vmin;
-}
-.vh-center{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.h3style{
-  display: inline-block;
-  padding: 14px 20px;
-  background-color: white;
-  color: #E74C3C;
-  border: 2px solid black;
-  font-weight: bold;
-  font-family: monospace;
-  font-size: 6vmin;
-  text-align: center;
-}
-.h3center{
-  text-align: center;
-  font-weight: bold;
-  font-family: monospace;
+
+.myLinks li a {
+    font-size: 200%;
 }
 
-  #skills{
+#about-me {
+    text-align: center;
+    background-color: #E74C3C;
+    min-height: 400px;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 120%;
+}
+
+.vh-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.h3style {
+    display: inline-block;
+    padding: 14px 20px;
     background-color: white;
-  }
-  h4{
-    font-size: 3vmin;
+    color: #E74C3C;
+    border: 2px solid black;
+    font-weight: bold;
+    font-family: Lato, monospace;
+    font-size: 200%;
+    text-align: center;
+}
+
+.h3center {
+    text-align: center;
+    font-weight: bold;
+    font-family: Lato, monospace;
+}
+
+#skills {
+    background-color: white;
+}
+
+h4 {
+    font-size: 200%;
     font-weight: bold;
     color: #E74C3C;
     text-align: center;
     padding: 0.5%;
-    font-family: monospace;
-  }
-  .list-group{
+    font-family: Lato, monospace;
+}
+
+.list-group {
     font-weight: bold;
-    font-family: monospace;
-    font-size: 3vmin;
-  }
+    font-family: Lato, monospace;
+    font-size: 150%;
+}
 
-  .portfolio-item{
+.badge {
+    font-size: 80%;
+}
+
+.portfolio-item {
     min-height: 500px;
+    color: black;
+}
 
-  }
-  .git{
+.git {
     min-height: 50px;
     background-color: #87DCED;
-  }
-  #contact{
+}
+
+#contact {
     background-color: #FA6D68;
-font-size: 3vmin;
-font-family: monospace;
-min-height: 350px;
-  }
-.f-center{
-text-align: center;
-color: black;
-font-family: serif;
+    font-size: 130%;
+    font-family: monospace;
+    min-height: 350px;
+}
+
+.f-center {
+    text-align: center;
+    color: black;
+    font-family: serif;
+}
+
+
+/* Extra small devices (phones, up to 480px) */
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+
+/* tablets/desktops and up ----------- */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+
+/* large desktops and up ----------- */
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
 }
